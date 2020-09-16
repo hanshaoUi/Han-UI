@@ -16,6 +16,6 @@
 
 ## 联系&赞赏
 喜欢的朋友可以请我喝奶茶🥤
-![wx](https://hoperp-han-1300874036.cos.ap-shanghai.myqcloud.com/2020/09/1600242486-WechatIMG43-e1600242800951.jpeg)
+![wx](https://hoperp-han-1300874036.cos.ap-shanghai.myqcloud.com/2020/09/1600243092-WechatIMG43.jpeg)
 ![赞赏](https://hoperp-han-1300874036.cos.ap-shanghai.myqcloud.com/2020/09/1600242959-WechatIMG42.png)
 
