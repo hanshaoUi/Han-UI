@@ -1,0 +1,12 @@
+{
+    "navigationBarTitleText": "我的",
+    "backgroundColorTop": "#1385FF",
+    "navigationBarBackgroundColor": "#1385FF",
+    "backgroundColorBottom": "#1385FF",
+    "onReachBottomDistance": 50,
+    "navigationStyle": "custom",
+
+    "usingComponents": {
+        "tui-loading": "../../components/loading/loading"
+    }
+}

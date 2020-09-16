@@ -1,0 +1,9 @@
+
+
+<view class="sk-three-bounce" wx:if="{{visible}}">
+   <view class="k-line k-line1"></view>
+   <view class="k-line k-line2"></view>
+   <view class="k-line k-line3"></view>
+   <view class="k-line k-line4"></view>
+   <view class="k-line k-line5"></view>
+</view>

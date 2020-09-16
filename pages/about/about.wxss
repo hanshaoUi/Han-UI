@@ -1,0 +1,46 @@
+/*
+ * 酱茄小程序开源版 v1.1.8
+ * Author: 酱茄
+ * Help document: https://www.jiangqie.com/ky
+ * github: https://github.com/longwenjunjie/jiangqie_kafei
+ * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
+ * License：MIT
+ * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ */
+ .hope-ad{
+    margin: 10rpx 30rpx;
+    width: 700rpx;
+    border-radius: 16rpx;
+    overflow: hidden;
+ }
+.ad{
+    width: 100%;
+    text-align: center;
+    color:#1385FF;
+    font-size: 26rpx;
+    border-bottom: 2rpx #1385FF solid;
+
+}
+.hope-box{
+    height: 312rpx;
+    width: 100%;
+    margin-bottom: 42rpx;
+}
+.hope-box image{
+    height: 312rpx;
+    width: 100%;
+}
+.hope-text-box{
+    padding: 0rpx 44rpx;
+}
+.hope-text{
+    text-indent: 2rem;
+    line-height: 1.6rem;
+    font-size: 20rpx;
+    margin-bottom: 42rpx;
+}
+.hope-title{
+    font-size: 24rpx;
+    font-weight: 700;
+    margin-bottom: 30rpx;
+}

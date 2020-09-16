@@ -1,0 +1,20 @@
+<view class='lxy-nav-bar__center'>
+	<block wx:if="{{title}}">
+		<text>{{title}}</text>
+	</block>
+
+	<!-- 顶部搜索 -->
+	<view class='lxy-nav-bar-search'  wx:elif="{{sousuo}}" bindtap="search">
+		<image src="../../images/294@3x.png" style="width: 32rpx;height: 30rpx;padding:30rpx;"></image>
+		<view class='lxy-nav-bar-search__input'>在<text style=" color: #1385FF;font-weight: 700;">全部</text>分类中搜索</view>
+		<view class="search_but"><image style="width: 88rpx;height: 88rpx;" src="../../images/research.png"></image></view>
+	</view>
+	
+	<!-- 暂时不开发标题loading. 看后期需要 -->
+	<!-- <view wx:if="{{loading}}" class="lxy-nav-bar__loading">
+                <view class="lxy-loading" style="width:{{size.width}}rpx;height:{{size.height}}rpx;"></view>
+            </view> -->
+	<block wx:else>
+		<slot name="center"></slot>
+	</block>
+</view>

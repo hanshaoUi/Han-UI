@@ -1,0 +1,22 @@
+<view class="container">
+	<view class="hope-box">
+		<image src="../../images/hope.png"></image>
+	</view>
+	<view class="hope-text-box">
+		<view class="hope-title">介绍</view>
+		<view class="hope-text">《Han UI》是一款帮助你了解设计资讯、灵感的小程序。你可以在这里了解到设计最新方向、最前沿的资讯以及灵感的一些来源等信息。通过把碎片信息归纳整理,方便你在今后的设计中使用。</view>
+		<view class="hope-title">联系我们</view>
+		<view class="hope-text">邮箱：han@hoperp.com<text decode="true">\n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>  微信：Hope-RP</view>
+		<view class="hope-title">隐私协议</view>
+		<view class="hope-text" style="margin-bottom: 0rpx;">本程序为非营利性软件，所有资源均采集自网络，如有侵权请联系我们删除。</view>
+		<view class="hope-text">本程序坚决抵制任何违法内容，对于违法内容您可以及时举报，发现后立马删除。如有疑问请通过邮件联系我们。</view>
+		<view class="hope-title ad">点击下方广告支持我们</view>
+		
+	</view>
+	<view class="hope-ad">
+			<ad unit-id="adunit-ec573c852da1178d" ad-intervals="30" ad-type="grid" grid-opacity="0.8" grid-count="8" ad-theme="white"></ad>
+		</view>
+</view>
+<!--加载框 start-->
+<tui-loading visible="{{loading}}"></tui-loading>
+<!--加载框 end-->

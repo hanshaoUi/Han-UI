@@ -1,0 +1,239 @@
+/*
+ * 酱茄小程序开源版 v1.1.8
+ * Author: 酱茄
+ * Help document: https://www.jiangqie.com/ky
+ * github: https://github.com/longwenjunjie/jiangqie_kafei
+ * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
+ * License：MIT
+ * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ */
+ 
+@import '../../templates/poplogin/poplogin.wxss';
+.hope-ad{
+    margin: 10rpx 28rpx;
+    width: 700rpx;
+    border-radius: 16rpx;
+    overflow: hidden;
+}
+page{
+    background: #f5f9fa;
+}
+.jiangqie-userbox {
+    padding-bottom: 30rpx;
+    min-height: 410rpx;
+}
+
+.jiangqie-usersetup {
+    display: none;
+    padding-top: 40rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+
+.jiangqie-usersetup image {
+    float: right;
+    height: 36rpx;
+    width: 36rpx;
+    margin-right: 40rpx;
+}
+
+.jiangqie-userinfo {
+    padding-bottom: 20rpx;
+    text-align: center;
+}
+
+.jiangqie-useravatar {
+    text-align: center;
+    /* height: 240rpx; */
+    clear: both;
+    padding-top: 130rpx;
+}
+
+.jiangqie-useravatar image {
+    height: 130rpx;
+    width: 130rpx;
+    border-radius: 130rpx;
+    border: 8rpx solid #FFF;
+    margin-bottom: 20rpx;
+}
+
+.jiangqie-username {
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 36rpx;
+    font-weight: 300;
+    color: #FFF;
+    width: 60%;
+    padding: 0rpx 20%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.jiangqie-useralogin {
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 30rpx;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.jiangqie-usermember {
+    height: 30rpx;
+    line-height: 30rpx;
+    font-size: 24rpx;
+    font-weight: 300;
+    color: #9B9B9B;
+}
+
+.jiangqie-countinfo {
+    display: none;
+    padding: 25rpx;
+    text-align: center;
+    overflow: hidden;
+}
+
+.jiangqie-countblock {
+    float: left;
+    width: 24.6%;
+    border-right: 1rpx solid #F3F3F3;
+}
+
+.jiangqie-countblock:last-child {
+    border: none;
+}
+
+.jiangqie-countnumber {
+    height: 40rpx;
+    line-height: 40rpx;
+    color: #333;
+    font-weight: 500;
+    font-size: 36rpx;
+}
+
+.jiangqie-counttype {
+    height: 40rpx;
+    line-height: 40rpx;
+    color: #999;
+    font-weight: 200;
+    font-size: 24rpx;
+}
+
+.jiangqie-listbox {
+    padding: 0rpx 14rpx;
+    align-content:space-between;
+}
+
+.jiangqie-postcount {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    padding-bottom: 10rpx;
+}
+
+.jiangqie-listblock {
+    overflow: hidden;
+    width: 284rpx;
+    height: 64rpx;
+    background: #fff;
+    margin: 20rpx 7rpx 10rpx 14rpx;
+    border-radius: 16rpx;
+    padding: 28rpx;
+}
+
+.jiangqie-listblock:last-child {
+    border-bottom: none;
+}
+
+.jiangqie-listcont {
+    float: right;
+    text-align: right;
+}
+
+.jiangqie-listcont text {
+    font-size: 24rpx;
+    font-weight: 200;
+    color: #999;
+}
+
+.jiangqie-listcont image {
+    float: right;
+    height: 64rpx;
+    width: 64rpx;
+    /* margin-left: 10rpx; */
+    margin-top: 8rpx;
+}
+
+/* .jiangqie-listtitle {
+    text-align: center;
+    display: flex;
+
+} */
+
+.jiangqie-listtitle text {
+    font-size: 26rpx;
+    font-weight: 400;
+    color: #333;
+    vertical-align: top;
+    line-height: 64rpx;
+}
+
+.jiangqie-listtitle image {
+    float: left;
+    height: 40rpx;
+    width: 40rpx;
+    margin: 14rpx 16rpx 14rpx 0rpx;
+}
+
+button.jiangqie-listtitle {
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent;
+}
+
+.jiangqie-listblock-line {
+    border-bottom: 1rpx solid #DDD;
+}
+
+.jiangqie-listblock-line:last-child {
+    border-bottom: none;
+}
+
+.jiangqie-list-split {
+    height: 16rpx;
+    background-color: #F3F3F3;
+}
+.jiangqie-listbox-about{
+    width: 694rpx;
+    background: #fff;
+    margin: 0rpx 28rpx;
+    border-radius: 16rpx;
+    margin-top: 12rpx;
+    margin-bottom: 40rpx;
+}
+.jiangqie-listtitle-x{
+    height: 98rpx;
+    padding-left: 33rpx;
+    display: flex;
+}
+.text-x{
+    line-height: 98rpx;
+    font-size: 22rpx;
+}
+
+.jiangqie-listblock-x{
+    border-bottom: solid #f7fbfc 1rpx;
+}
+
+.jiangqie-listblock-x button{
+    text-align: left;
+    padding: 0;
+    font-size: 22rpx;
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0);
+    padding-left: 33rpx;
+}
+.jiangqie-listtitle-x image{
+    width: 33rpx;
+    height: 33rpx;
+    margin: 32rpx 16rpx 32rpx 0rpx;
+}
