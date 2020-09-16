@@ -10,7 +10,7 @@
 参照酱茄[官方安装文档](https://www.jiangqie.com/ky/4655.html)
 
 ## 预览图
-![首页.png](https://hoperp-han-1300874036.cos.ap-shanghai.myqcloud.com/2020/09/1600242294-Shadow1.png)
+![首页.png](https://hoperp-han-1300874036.cos.ap-shanghai.myqcloud.com/2020/09/1600242652-Shadow1.png)
 ![分类.png](https://hoperp-han-1300874036.cos.ap-shanghai.myqcloud.com/2020/09/1600242292-Shadow.png)
 ![我的.png](https://hoperp-han-1300874036.cos.ap-shanghai.myqcloud.com/2020/09/1600242295-Shadow2.png)
 
