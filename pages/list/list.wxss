@@ -1,0 +1,164 @@
+/*
+ * 酱茄小程序开源版 v1.1.8
+ * Author: 酱茄
+ * Help document: https://www.jiangqie.com/ky
+ * github: https://github.com/longwenjunjie/jiangqie_kafei
+ * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
+ * License：MIT
+ * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ */
+
+@import '../../templates/nodata/nodata.wxss';
+@import '../../templates/poplogin/poplogin.wxss';
+.hope-ad{
+    margin: 20rpx 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 30rpx;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+/** jiangqie-news-block **/
+
+.jiangqie-news-type {
+    font-size: 40rpx;
+    font-weight: 600;
+    color: #555;
+    padding: 16rpx 0 0;
+}
+
+.jiangqie-news-type text {
+    float: right;
+    font-size: 28rpx;
+    font-weight: 200;
+    color: #CCC;
+}
+
+.jiangqie-news-block {
+    height: 210rpx;
+    width: 680rpx;
+    position: relative;
+    border-bottom: #f8f9fa solid 2rpx;
+}
+
+.jiangqie-news-image {
+    float: right;
+    height: 170rpx;
+    width: 226rpx;
+    margin-right: 0rpx;
+    border-radius: 16rpx;
+    box-shadow: 5rpx 5rpx 20rpx rgba(0, 0, 0, 0.2);
+}
+
+.jiangqie-news-text {
+    text-align: left;
+}
+
+.jiangqie-news-title {
+    font-size: 32rpx;
+    color: #333;
+    font-weight: 400;
+    line-height: 50rpx;
+    /* margin-bottom: 30rpx;
+    height: 100rpx;  */
+    overflow: hidden;
+}
+
+.jiangqie-news-no-excerpt {
+    margin-bottom: 30rpx;
+    height: 80rpx;
+    width: 400rpx;
+    overflow: hidden;
+    font-size: 26rpx;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-top: 30rpx;
+}
+
+.jiangqie-news-describe {
+    font-size: 24rpx;
+    color: #999;
+    line-height: 30rpx;
+    margin-bottom: 18rpx;
+}
+
+.jiangqie-news-info {
+    font-size: 20rpx;
+    color: #CCC;
+    vertical-align: bottom;
+    height: 24rpx;
+}
+
+.jiangqie-news-cmt {
+    float: right;
+    padding-right: 4rpx;
+    position: absolute;
+    top: 140rpx;
+}
+
+.jiangqie-news-cmt image {
+    vertical-align: middle;
+    height: 24rpx;
+    width: 24rpx;
+    margin-right: 8rpx;
+    border-radius: 10rpx;
+}
+
+.jiangqie-news-tag {
+    float: left;
+    line-height: 30rpx;
+    height: 30rpx;
+    padding: 0 16rpx;
+    /* border: 1rpx solid #AAA; */
+    border-radius: 4px;
+    margin-right: 12rpx;
+    position: absolute;
+    top: 100rpx;
+    left: 260rpx;
+    background: #1385FF;
+    color: #fff;
+}
+.tag1{
+    top: 140rpx;
+    background: #F9960F;
+}
+
+.jiangqie-news-time {
+    float: left;
+    line-height: 30rpx;
+    height: 30rpx;
+    vertical-align: middle;
+    padding-left: 10rpx;
+    font-size: 18rpx;
+    position: absolute;
+    top: 100rpx;
+    left: -10rpx;
+}
+.jiangqie-news-time image {
+    vertical-align: middle;
+    height: 24rpx;
+    width: 24rpx;
+    margin-right: 8rpx;
+    border-radius: 10rpx;
+}
+
+.image-wide {
+    padding-right: 0;
+}
+
+.image-wide .jiangqie-news-image {
+    height: 320rpx;
+    width: 690rpx;
+    margin-right: 0rpx;
+    margin-bottom: 10rpx;
+    clear: both;
+    float: none;
+}
+
+.image-wide .jiangqie-news-title {
+    height: auto;
+    margin-bottom: 10rpx;
+}

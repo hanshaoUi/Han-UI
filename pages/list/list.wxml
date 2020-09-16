@@ -1,0 +1,65 @@
+<!--pages/list/list.wxml-->
+<import src="../../templates/nodata/nodata.wxml" />
+<import src="../../templates/poplogin/poplogin.wxml" />
+
+<!--新闻列表——常规-->
+<view class="container">
+	<view class="jiangqie-news-view">
+
+		<block wx:if="{{posts.length > 0}}">
+			<block wx:for="{{posts}}" wx:key="id">
+				<view wx:if="{{index%5==4}}" class="hope-ad jiangqie-news-block"  ><ad unit-id="adunit-b30dc3d102b2f494" ad-intervals="30"></ad></view>
+				<view   class="jiangqie-news-block" data-id="{{item.id}}" catchtap="handlerArticleClick">
+					<image src="{{item.thumbnail}}" mode="aspectFill" class="jiangqie-news-image"></image>
+					<view class="jiangqie-news-text">
+						<view class="jiangqie-news-title {{item.excerpt?'':'jiangqie-news-no-excerpt'}}">{{item.title}}</view>
+						<view wx:if="{{item.excerpt}}" class="jiangqie-news-describe">{{item.excerpt}}</view>
+						<view class="jiangqie-news-info">
+							<view class="jiangqie-news-cmt">
+								<image src="../../images/ctm2.png" mode="aspectFill" class=""></image>{{item.views}}
+							</view>
+							<view wx:if="{{item.tags[0].name}}" wx:key="id" class="jiangqie-news-tag">{{item.tags[0].name}}</view>
+							<view wx:if="{{item.tags[1].name}}" wx:key="id" class="jiangqie-news-tag tag1">{{item.tags[1].name}}</view>
+							<view class="jiangqie-news-time">
+								<image src="../../images/time.png" mode="aspectFill" class=""></image>{{item.time}}
+							</view>
+						</view>
+					</view>
+				</view>
+				<!-- <view  class="jiangqie-news-block" data-id="{{item.id}}" catchtap="handlerArticleClick">
+					<image src="{{item.thumbnail}}" mode="aspectFill" class="jiangqie-news-image"></image>
+					<view class="jiangqie-news-text">
+						<view class="jiangqie-news-title {{item.excerpt?'':'jiangqie-news-no-excerpt'}}">{{item.title}}</view>
+						<view wx:if="{{item.excerpt}}" class="jiangqie-news-describe">{{item.excerpt}}</view>
+						<view class="jiangqie-news-info">
+							<view class="jiangqie-news-cmt">
+								<image src="../../images/ctm2.png" mode="aspectFill" class=""></image>{{item.views}}
+							</view>
+							<view wx:if="{{item.tags[0].name}}" wx:key="id" class="jiangqie-news-tag">{{item.tags[0].name}}</view>
+							<view wx:if="{{item.tags[1].name}}" wx:key="id" class="jiangqie-news-tag tag1">{{item.tags[1].name}}</view>
+							<view class="jiangqie-news-time">
+								<image src="../../images/time.png" mode="aspectFill" class=""></image>{{item.time}}
+							</view>
+						</view>
+					</view>
+				</view> -->
+			</block>
+
+			<!--加载loadding-->
+			<tui-loadmore visible="{{loadding}}"></tui-loadmore>
+			<tui-nomore visible="{{!pullUpOn}}"></tui-nomore>
+			<!--加载loadding-->
+
+		</block>
+		<block wx:elif="{{loaded}}">
+			<template is="jiangqie_nodata" />
+		</block>
+
+	</view>
+</view>
+
+<template is="jiangqie_poplogin" data="{{show:showPopLogin}}" />
+
+<!--加载框 start-->
+<tui-loading visible="{{loading}}"></tui-loading>
+<!--加载框 end-->
