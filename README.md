@@ -2,6 +2,10 @@
 基于WP酱茄开源版插件，进行UI布局调整。
 觉得不错点个Star吧
 
+## 重要
+很多朋友反映git下载的包无法渲染
+蓝奏云：https://wwa.lanzous.com/b00ztvlda  密码:Hope
+
 ## 使用方法
 下载代码包，导入[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)。即可使用。
 
